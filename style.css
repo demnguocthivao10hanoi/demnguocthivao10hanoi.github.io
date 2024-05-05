@@ -7,7 +7,7 @@
 }
 .text-h1 {
     font-family: "Sono", sans-serif !important;
-    background: radial-gradient(circle, #5616FA, #FA168D);
+    background: radial-gradient(circle, #DB0E00, #DB00A9);
     animation: animate 5s linear infinite;
     background-size: 200% 200%;
     background-clip: text;
@@ -30,7 +30,7 @@
         background-position: 150% 150%;
     }
     100%{
-        background-position: 0% 0%;
+        background-position: 200% 200%;
     }
 
 }
@@ -43,7 +43,8 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #2f363e;
-    background-image: url(./images/neon.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./images/neon.jpg);
+    background-position: center;
 }
 
 #time {
