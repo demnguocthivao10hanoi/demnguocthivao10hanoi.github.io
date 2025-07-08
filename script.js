@@ -15,7 +15,7 @@ let sec_dot = document.querySelector('.sec_dot');
 
 let titleElement = document.querySelector('.h2'); // Select the title element
 
-let endDate = '06/08/2024 08:00:00'; //date format i.e., mm/dd/yyyy
+let endDate = '06/08/2026 08:00:00'; //date format i.e., mm/dd/yyyy
 
 let x = setInterval(function(){
   let now = new Date(endDate).getTime();
